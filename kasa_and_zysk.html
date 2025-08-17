@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Najlepsze promocje bankowe</title>
+<style>
+body {
+font-family: 'Arial', sans-serif;
+line-height: 1.6;
+margin: 20px;
+background-color: #f4f4f9;
+color: #333;
+}
+.container {
+max-width: 960px;
+margin: auto;
+padding: 20px;
+}
+.bank-offer {
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+margin-bottom: 30px;
+padding: 25px;
+position: relative;
+}
+.bank-header {
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+.bank-logo {
+width: 80px;
+height: 80px;
+margin-right: 20px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+}
+/* Kolory logotypów */
+.pko .bank-logo { background-color: #E4202C; }
+.bnp .bank-logo { background-color: #007f5f; }
+.mBank .bank-logo { background-color: #FF0000; }
+.santander .bank-logo { background-color: #e31837; }
+.alior .bank-logo { background-color: #ffc900; }
+.velo .bank-logo { background-color: #4CAF50; }
+
+h2 {
+margin: 0;
+color: #2c3e50;
+font-size: 24px;
+}
+.promo-details {
+display: none;
+margin-top: 15px;
+border-top: 1px solid #eee;
+padding-top: 15px;
+}
+.show-details-button {
+cursor: pointer;
+color: #007bff;
+font-weight: bold;
+text-decoration: underline;
+display: block;
+margin-top: 10px;
+}
+.action-buttons {
+display: flex;
+gap: 15px;
+margin-top: 20px;
+flex-wrap: wrap;
+}
+.action-button {
+background-color: #007bff;
+color: white;
+padding: 12px 25px;
+text-decoration: none;
+border-radius: 50px;
+font-weight: bold;
+text-align: center;
+transition: background-color 0.3s, transform 0.2s;
+}
+.action-button:hover {
+background-color: #0056b3;
+transform: translateY(-2px);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Najlepsze promocje kont bankowych</h1>
+
+<div class="bank-offer velo">
+<div class="bank-header">
+<div class="bank-logo">Velo</div>
+<h2>VeloBank - VeloKonto</h2>
+</div>
+<p>Odbierz atrakcyjny **bonus gotówkowy do 600 zł** za otwarcie **VeloKonta** w VeloBanku! Ciesz się łatwymi warunkami promocji i szybko zyskaj dodatkowe środki.</p>
+<span class="show-details-button" onclick="toggleDetails(this)">Rozwiń szczegóły</span>
+<div class="promo-details">
+<h3>Jak odebrać nagrodę?</h3>
+<p>Aby otrzymać premię, wystarczy spełnić warunki dotyczące aktywności w każdym z trzech miesięcy po otwarciu konta. Wykonaj 5 transakcji BLIK na dowolną kwotę.</p>
+</div>
+<div class="action-buttons">
+<a href="https://marta-cash.ebrokerpartner.pl/short/5nsj6" class="action-button">Otwórz konto</a>
+</div>
+</div>
+
+<div class="bank-offer alior">
+<div class="bank-header">
+<div class="bank-logo">Alior</div>
+<h2>Alior Bank - Konto Jakże Osobiste</h2>
+</div>
+<p>Zyskaj premię do **400 zł** za otwarcie **Konta Jakże Osobistego** w Alior Banku. Warunki są banalnie proste, a nagroda jest w zasięgu ręki.</p>
+<span class="show-details-button" onclick="toggleDetails(this)">Rozwiń szczegóły</span>
+<div class="promo-details">
+<h3>Jak odebrać nagrodę?</h3>
+<p>Wystarczy wykonać jedną płatność kartą w ciągu 7 dni od otwarcia konta.</p>
+</div>
+<div class="action-buttons">
+<a href="https://marta-cash.ebrokerpartner.pl/short/5nsiq" class="action-button">Otwórz konto</a>
+</div>
+</div>
+
+<div class="bank-offer mBank">
+<div class="bank-header">
+<div class="bank-logo">mBank</div>
+<h2>mBank - eKonto Osobiste</h2>
+</div>
+<p>Bonus trafi do Ciebie, jeśli spełnisz warunek: wykonasz jedną płatność kartą lub BLIK-iem w ciągu 7 dni od otwarcia konta.</p>
+<span class="show-details-button" onclick="toggleDetails(this)">Rozwiń szczegóły</span>
+<div class="promo-details">
+<h3>Jak odebrać nagrodę?</h3>
+<p>Aby otrzymać bonus, musisz spełnić jeden warunek w ciągu 7 dni od otwarcia konta:</p>
+<ul>
+<li>Wykonaj **5 płatnośći** kartą lub BLIK-iem.</li>
+</ul>
+</div>
+<div class="action-buttons">
+<a href="https://marta-cash.ebrokerpartner.pl/short/5nqaw" class="action-button">Otwórz konto</a>
+</div>
+</div>
+
+<div class="bank-offer bnp">
+<div class="bank-header">
+<div class="bank-logo">BNP Paribas</div>
+<h2>BNP Paribas - Konto Otwarte na Ciebie</h2>
+</div>
+<p>Odbierz bonus za wykonanie jednej dowolnej płatności kartą lub BLIK-iem w ciągu 7 dni od otwarcia konta.</p>
+<span class="show-details-button" onclick="toggleDetails(this)">Rozwiń szczegóły</span>
+<div class="promo-details">
+<h3>Jak odebrać nagrodę?</h3>
+<p>Aby otrzymać premię, wystarczy wykonać **jedną dowolną płatność** w ciągu 7 dni po otwarciu konta. Może to być płatność **kartą lub BLIKIEM**.</p>
+</div>
+<div class="action-buttons">
+<a href="https://marta-cash.ebrokerpartner.pl/short/5nsj2" class="action-button">Otwórz konto</a>
+</div>
+</div>
+
+<div class="bank-offer santander">
+<div class="bank-header">
+<div class="bank-logo">Santander</div>
+<h2>Santander Bank Polska - Konto Jakie Chcę</h2>
+</div>
+<p>Załóż **Konto Jakie Chcę** w Santander Bank Polska i odbierz **bonus do 400 zł**. To jedna z najprostszych promocji na rynku!</p>
+<span class="show-details-button" onclick="toggleDetails(this)">Rozwiń szczegóły</span>
+<div class="promo-details">
+<h3>Jak odebrać nagrodę?</h3>
+<p>Wystarczy wykonać **jedną transakcję kartą lub BLIKIEM** w miesiącu po otwarciu konta.</p>
+</div>
+<div class="action-buttons">
+<a href="https://marta-cash.ebrokerpartner.pl/short/5nsj0" class="action-button">Otwórz konto</a>
+</div>
+</div>
+
+<div class="bank-offer pko">
+<div class="bank-header">
+<div class="bank-logo">Pekao</div>
+<h2>Pekao - Konto za Zero</h2>
+</div>
+<p>Zgarnij bonus **do 500 zł** za otwarcie **Konta za Zero** w Pekao. Spełnij proste warunki, a nagroda wpadnie na Twoje konto. Oferta dla osób, które **ukończyły 18 lat**.</p>
+<span class="show-details-button" onclick="toggleDetails(this)">Rozwiń szczegóły</span>
+<div class="promo-details">
+<h3>Jak odebrać nagrodę?</h3>
+<p>Aby zgarnąć bonus, musisz spełnić dwa warunki:</p>
+<ul>
+<li>**W pierwszym miesiącu** po otwarciu konta wykonaj minimum **5 transakcji BLIK** (np. płatności w internecie, przelewy na telefon lub w sklepach stacjonarnych).</li>
+<li>**W drugim miesiącu** powtórz ten sam krok, wykonując kolejne **5 transakcji BLIK**.</li>
+</ul>
+</div>
+<div class="action-buttons">
+<a href="https://marta-cash.ebrokerpartner.pl/short/5nsj4" class="action-button">Otwórz konto</a>
+</div>
+</div>
+
+</div>
+
+<script>
+function toggleDetails(element) {
+const details = element.nextElementSibling;
+if (details.style.display === "block") {
+details.style.display = "none";
+element.textContent = "Rozwiń szczegóły";
+} else {
+details.style.display = "block";
+element.textContent = "Zwiń szczegóły";
+}
+}
+</script>
+
+</body>
+</html>
